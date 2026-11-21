@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "krishna_client",
+  "version": "0.1.0",
+  "name": "KRISHNA CLIENT - Purple Edition",
+  "description": "Lightweight PvP and performance client.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.krishna.client.KrishnaClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
